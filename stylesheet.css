@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  a {
+    text-decoration: none;
+  }
+  .clear {
+    clear: left;
+  }
+  .button{
+    color: white;
+  }
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 13px;
+    margin: 0 auto;
+  }
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-color: skyblue;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    opacity: null;
+    font-size: 45px;
+    font-family:cursive;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px white;
+  }
+  .top-wrapper p {
+    opacity: null;
+    margin-bottom: 3px;
+  }
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  header {
+    height: 75px;
+    width: 100%;
+    background-color:lightgreen;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    width: 40px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  .checkbtn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+  }
+  .header-left {
+    float: left;
+  }
+  .collapse{
+    float:center;
+  }
+  .header-left{
+    float: left;
+  }
+  .navbar-collapse {
+    margin-right: -25px;
+  }
+  .navbar-collapse{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .container ul{
+    margin-left: 100px;
+  }
+  .container li {
+    line-height: 65px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-align: center; 
+  }
+  .navbar-collapse{
+    float: right;
+  }
+  .navbar-collapse a{
+    color: black;
+  }
+  .navbar-collapse li:hover {
+    background-color: green;
+    margin: 2px;
+  }
+  .text-contents {
+    width: 80%;
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  .heading h2{
+    font-weight: normal;
+    font-family: cursive;
+  }
+  .heading h3 {
+    font-weight: normal;
+  }
+  .message-wrapper {
+    
+   padding-bottom: 80px;
+    text-align: center;
+  }
+  .message {
+    padding: 15px 50px;
+    background-color:indigo;
+    cursor: pointer;
+  }
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .container1{
+    background-color:lightpink;
+    padding-bottom: 50px;
+  }
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+    text-align: center;
+  }
+  .heading1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:white;
+  }
+  .heading h2 {
+    font-weight: normal;
+  }
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  .lesson-icon img{
+    width:200px;
+  }
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color:white;
+    font-weight: bolder;
+  }
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color:white;
+  }
+  .heading h3 {
+    font-weight: normal;
+  }
+  footer img {
+    width: 50px;
+  }
+  footer p {
+    color:black;
+    font-size: 14px;
+  }
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  @media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }  
+    footer {
+      text-align: center;
+    }
+    .navbar-nav{
+      background-color: lightgreen;
+      border: 1px solid darkgreen;
+    }
+    .nav-item{
+      border:1px solid darkgreen;
+    }
+    .btn {
+      width: 40%;
+    }
+    .top-wrapper {
+      text-align: center;
+    }
+    .header-right{
+      display:none;
+    }
+    .menu-icon{
+      display:block;
+    }
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }  
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }

@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+} 
+body {
+    margin: 0;
+    font-family:"Lucida Grande";
+}
+header{
+    padding: 12px 24px;
+    width: 100%;
+    background-color:lightgreen;
+    position:absolute;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    width: 50px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    display: block;
+}
+.header h1{
+    font-weight: bolder;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+    margin-right: -25px;
+}
+.header-right a{
+    color:black;
+    line-height: 65px;
+    padding: 0 100px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.header-right a:hover{
+    background-color: green;
+
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 13px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-color: lightseagreen;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+.top-wrapper img{
+    width:20%;
+}
+.top-wrapper h1{
+    opacity: 2;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+.top-wrapper p{
+    opacity: 10;
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-style:initial;
+    align-content: center;
+    background-color: seagreen;
+    padding:10px 10px 10px 10px;
+}
+.top-wrapper img {
+    margin-left: 250px;
+    margin-left: 50%;
+    justify-content: center;
+}
+.lesson-wrapper{
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.heading{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#3399ff;
+    font-family: cursive;
+    background-color:skyblue;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.heading h2{
+    color:#000000;
+    font-weight:bolder;
+    font-size: 27px;
+    float: center;
+}
+.Social1{
+    display: inline-block;
+    margin: 5px 40px 2px 40px;
+}
+.heading img{
+    float:center;
+}
+.header-right li{
+    text-decoration: none;
+    list-style: none;
+}
+footer img{
+    width:50px;
+}
+footer p{
+    color: #b3aeb5;
+    font-size: 14px;
+}
+footer{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+@media all and(max-width:670px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .header-right{
+        font-size: 120px;
+    }
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+    .heading h2 {
+        font-size: 20px;
+    }
+    .Social1{
+        margin-top: 120px;
+    }
+    .dropdown{
+        display: inline-block;
+    }
+    .header-right{
+        display: inline-block;
+    }
+    footer{
+        text-align: center;
+    }
+}
+.dropdown{
+    float: right;
+}
+.dropbtn img{
+    padding-top: 2px;
+}
+.dropbtn {
+    background-color: lightgreen;
+  color:black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  line-height: 65px;
+  padding: 0 50px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.dropbtn:hover{
+    color: darkgreen;
+}
+.dropdown {
+  position: relative;
+  display:block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgreen;
+  border: 1px solid darkgreen;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color:darkgreen;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color:darkgreen;}
